@@ -17,7 +17,7 @@ from dotenv import load_dotenv  # Pour le stockage de données sensibles (au roo
 
 # Permet d'obtenir le path du projet
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
-# Attribution du path pour .env afin d'obtenir les variables d'environnements.
+# Attribution du path pour .env afin d'obtenir les variables d'environnement.
 load_dotenv(os.path.join(BASEDIR, '.env'))
 
 
