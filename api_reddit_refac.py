@@ -1,6 +1,6 @@
 # ETL API Reddit : https://www.reddit.com/dev/api/
 
-# L'objectif est de réaliser un ETL automatique qui récupère différentes données (images, textes, commentaires) des subreddits
+# L'objectif est de réaliser un ETL qui récupère différentes données (images, textes, commentaires) des subreddits
 # de Reddit : https://www.reddit.com/
 # Par défaut le script est sur Dataisbeautiful (subreddit dédié à l'analyse de données) : https://www.reddit.com/r/dataisbeautiful/
 
@@ -22,7 +22,7 @@ load_dotenv(os.path.join(BASEDIR, '.env'))
 
 
 # Fonction de recuperation des données sensible dans .env et d'autentification a Reddit via une OAUth 2.0.
-# DotENV doit toujours être au root du programme
+# DotENV doit toujours être au root du projet.
 
 def login():
     CLIENT_ID = os.getenv("CLIENT_ID")
